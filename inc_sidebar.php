@@ -1,10 +1,3 @@
-<?php
-include "koneksi.php";
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,14 +28,14 @@ include "koneksi.php";
             </li>
 
             <li>
-                <a href="#">
+                <a href="databuku.php">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
                     <span class="title">Data Buku</span>
                 </a>
             </li>
 
             <li>
-                <a href="datasiswa/datasiswa.php">
+                <a href="">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
                     <span class="title"> Data Siswa  </span>
                 </a>
@@ -58,49 +51,6 @@ include "koneksi.php";
     </div>
     
     <!-- home content -->
-    <div class="home-content">
-        <div class="home-1">
-            <span>DATA PEPRPUSTAKAAN</span>
-            <button><a href="formtambah.php">Tambah</a></button>
-
-
-            <table border="1" style="border-collapse: collapse;" class="tabel-content">
-                <tr>
-                    <th>ID</th>
-                    <th>Kode Buku</th>
-                    <th>Judul Buku</th>
-                    <th>Kategori</th>
-                    <th>Stok</th>
-                    <th>DI Pinjam</th>
-                    <th>Action</th>
-                </tr>
-
-                <?php
-                    $sql= "SELECT * FROM databuku";
-                    $query = mysqli_query($connect, $sql);
-
-                    while($data= mysqli_fetch_array($query)){
-                        echo "
-                        <tr>
-                            <td>$data[id]</td>
-                            <td>$data[kode_buku]</td>
-                            <td>$data[judul_buku]</td>
-                            <td>$data[kategori]</td>
-                            <td>$data[stok]</td>
-                            <td>$data[di_pinjam]</td>    
-                            </td>
-                            <td>
-                                <a href='formedit.php?id=".$data['id']."'>Edit</a> 
-                                <a  href='hapus.php?id=".$data['id']."'>Hapus</a> 
-                            </td>
-                        </tr>"; 
-                    }
-
-                ?>
-            </table>
-        </div>
-
-        
-    </div>
+   
 </body>
 </html>

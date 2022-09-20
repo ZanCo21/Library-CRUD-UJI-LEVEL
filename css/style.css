@@ -101,7 +101,7 @@ body{
 .tabel-content tr td a:first-child{
     color: white;
     text-decoration: none;
-    padding: 2px 8px;
+    padding: 2px 15px;
     border-radius: 10px;
     background-color: #0B2997;
 }
@@ -119,10 +119,58 @@ body{
     background-color: black;
     color: white;
     font-weight: 500;
-    height: 35px;
+    height: 40px;
 }
 
 .tabel-content tr td{
-    background-color: #D9D9D9;
-    height: 25px;
+    /* background-color: #D9D9D9; */
+    height: 30px;
+}
+
+/* formedit + formtambah */
+.container-edit{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.container-edit form{
+    margin-top: 2%;
+    line-height: 330%;
+}
+
+.container-edit p{
+    margin-left: 20%;
+}
+
+.title-edit input{
+    float: right;
+    margin-right: 35%;
+    padding: 8px 8px;
+    width: 45%;
+}
+
+.btn-edit{
+    float: right;
+    margin-right: 25%;
+}
+
+.btn-edit .btn-buku{
+    background-color: transparent;
+    padding: 9px 15px;
+    border-radius: 15px;
+    color: black;
+}
+
+.btn-edit .btn-buku:hover{
+    background-color: #0B2997;
+    color: white;
+
+}
+
+.container-edit h3{
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
 }
