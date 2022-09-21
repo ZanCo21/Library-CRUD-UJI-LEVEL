@@ -23,28 +23,28 @@
             <li>
                 <a href="#">
                     <span class="icon"><img src="../asset/img/user.png" alt=""></i></span>
-                    <span class="title">STARBHAK PERPUS</span>
+                    <span>STARBHAK PERPUS</span>
                 </a>
             </li>
 
             <li>
                 <a href="../databuku.php">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
-                    <span class="title">Data Buku</span>
+                    <span class="title-dash">Data Buku</span>
                 </a>
             </li>
 
             <li>
                 <a href="datasiswa.php">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
-                    <span class="title"> Data Siswa  </span>
+                    <span class="title-dash"> Data Siswa  </span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
                     <span class="icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-                    <span class="title">More..</span>
+                    <span class="title-dash">More..</span>
                 </a>
             </li>
         </ul>

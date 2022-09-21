@@ -30,28 +30,28 @@ include "koneksi.php";
             <li>
                 <a href="#">
                     <span class="icon"><img src="asset/img/user.png" alt=""></i></span>
-                    <span class="title">STARBHAK PERPUS</span>
+                    <span>STARBHAK PERPUS</span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
-                    <span class="title">Data Buku</span>
+                    <span class="title-dash">Data Buku</span>
                 </a>
             </li>
 
             <li>
                 <a href="datasiswa/datasiswa.php">
                     <span class="icon"><i class="fa-solid fa-file-pen"></i></span>
-                    <span class="title"> Data Siswa  </span>
+                    <span class="title-dash"> Data Siswa  </span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
                     <span class="icon"><i class="fa-solid fa-circle-exclamation"></i></span>
-                    <span class="title">More..</span>
+                    <span class="title-dash">More..</span>
                 </a>
             </li>
         </ul>
@@ -64,14 +64,14 @@ include "koneksi.php";
             <button><a href="formtambah.php">Tambah</a></button>
 
 
-            <table border="1" style="border-collapse: collapse;" class="tabel-content">
+            <table border="0" style="border-collapse: collapse;" class="tabel-content">
                 <tr>
                     <th>ID</th>
                     <th>Kode Buku</th>
                     <th>Judul Buku</th>
                     <th>Kategori</th>
                     <th>Stok</th>
-                    <th>DI Pinjam</th>
+                    <th>Di Pinjam</th>
                     <th>Action</th>
                 </tr>
 

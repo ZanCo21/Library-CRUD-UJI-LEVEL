@@ -26,21 +26,26 @@ body{
 
 .sidebar ul li{
     list-style: none;
-    color: white;
     width: 100%;
+    font-weight: 300;
     line-height: 30px;
 }
 
 .sidebar ul li:hover{
+    background-position: center;
    background-color: #0B2997; 
 }
 
 .sidebar ul li a{
-    color: white;
     text-decoration: none;
     display: flex;
     width: 100%;
+    color: white;
+}
 
+.title-dash{
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .sidebar ul li a .icon{
@@ -84,9 +89,12 @@ body{
     color: black;
 }
 
+.home-1 button a:hover{
+    color: white;
+}
+
 .home-1 button:hover{
     background-color: #0B2997;
-    color: white;
     border: 0;
     padding: 10px 1px;
 }
@@ -96,8 +104,10 @@ body{
     margin-left: 21%;
     width: 180%;
     text-align: center;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.2);
 }
 
+/* btn edit delete */
 .tabel-content tr td a:first-child{
     color: white;
     text-decoration: none;
@@ -115,6 +125,10 @@ body{
 }
 
 /* tabel- edit colom */
+.tabel-content tr{
+    border-bottom: solid #ddd;
+}
+
 .tabel-content tr th{
     background-color: black;
     color: white;
@@ -123,9 +137,13 @@ body{
 }
 
 .tabel-content tr td{
-    /* background-color: #D9D9D9; */
-    height: 30px;
+    height: 35px;
 }
+
+.tabel-content tr:nth-child(odd){
+    background-color: Lavender;
+}
+
 
 /* formedit + formtambah */
 .container-edit{
